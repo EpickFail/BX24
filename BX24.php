@@ -5,7 +5,7 @@ class BX24{
   public $params;
   protected $portal;
 
-  public function __construct($portal, $method, $params){
+  public function __construct($portal){
     $this->portal = $portal;
   }
 
